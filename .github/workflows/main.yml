@@ -33,7 +33,7 @@ jobs:
         # This is precautionary since os.makedirs handles it, but ensures the commit step finds the folders.
         run: |
           mkdir -p charts
-          mkdir -p reports
+          mkdir -p data
           
       - name: 5. Run Analysis Script
         run: |
