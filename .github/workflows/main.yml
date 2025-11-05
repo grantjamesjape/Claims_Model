@@ -46,5 +46,5 @@ jobs:
           # >>> IMPORTANT FIX: Changed 'files' to 'file_pattern' <<<
           file_pattern: |
             charts/
-            reports/
+            data/
             insurance.csv
